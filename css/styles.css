@@ -1,0 +1,302 @@
+body {
+    background-color: white;
+    font-family: Poppins, serif;
+}
+
+img.logo-head {
+    display: inline;
+    height: 50px;
+    width: 193px;
+    padding: 0 42em 0 1em;
+}
+
+/*h1 {
+    padding: 0 18.4em 0 1em;
+    display: inline;
+    color: rgb(1, 231, 231);
+}*/
+
+a {
+    text-decoration: none;
+}
+
+h4 {
+    font-size: 15pt;
+}
+
+.header {
+    padding: 1em;
+    background-color: black;
+    white-space: nowrap;
+}
+
+.body {
+    padding: 0.5em 0 1em 0;
+    background-color: lightgray;
+}
+
+.footer {
+    background-color: darkgray;
+    padding: 1em;
+    text-align: center;
+    color: white;
+    font-size: 14pt;
+}
+
+.section {
+    background-color: darkgray;
+    padding: 0.5em 0 0.5em 1em;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.section-feat {
+    background-color: darkgray;
+    padding: 0.5em 0 0.5em 1em;
+}
+
+.section-high {
+    background-color: darkgray;
+    padding: 0.1em 0 1.5em 0;
+    background-image: url('../images/music.png');
+}
+
+.h-link {
+    display: inline;
+    color: white;
+    font-size: 16pt;
+    text-align: center;
+    padding: 0.1em 0.3em 0.1em 0.3em;
+}
+
+.h-link:hover {
+    color: #49B3E7;
+    text-decoration: underline;
+}
+
+.about {
+    display: inline;
+    color: white;
+    font-size: 16pt;
+    text-align: center;
+    padding: 0.1em 0.3em 0.1em 0.3em;
+}
+
+.about:hover {
+    color: #49B3E7;
+}
+
+.music {
+    display: inline;
+    color: white;
+    font-size: 16pt;
+    text-align: center;
+    padding: 0.1em 0.3em 0.1em 0.3em;
+}
+
+.music:hover {
+    color: #49B3E7;
+}
+
+.worship {
+    display: inline;
+    color: white;
+    font-size: 16pt;
+    text-align: center;
+    padding: 0.1em 0.3em 0.1em 0.3em;
+}
+
+.worship:hover {
+    color: #49B3E7;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: darkgray;
+    color: aqua;
+    padding: 1em;
+    position: absolute;
+}
+
+/*.dropdown:hover .dropdown-content {
+    display: block;
+}*/
+
+.d-link {
+    padding: 0.5em;
+    color: aqua;
+}
+
+.d-link:hover {
+    text-decoration: underline;
+}
+
+.contrib {
+    display: inline;
+    padding: 0 3.5em 0 3.75em;
+}
+
+.contrib-title {
+    display: inline;
+    padding: 0 2em 0 2em;
+    color: black;
+    text-decoration: underline;
+}
+
+.contrib-button {
+    background-color: white;
+    color: black;
+    padding: 1em 2em 1em 2em;
+}
+
+.contrib-button:hover {
+    background-color: aqua;
+    color: white;
+}
+
+.article-link {
+    color: black;
+    padding: 0 7em 0 7em;
+}
+
+.feat-article {
+    padding: 0 5em 0 5em;
+}
+
+.article {
+    padding: 0 7em 0 7em;
+}
+
+.feat-articles {
+    text-align: center;
+}
+
+#current-page {
+    text-decoration: underline;
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer-img {
+    width: 100px;
+    height: 100px;
+}
+
+#contrib-img {
+    padding: 5em 40em 5em 40em;
+}
+
+#writer {
+    padding: 0 3.5em 0 3.5em;
+}
+
+#designer {
+    padding: 0 4.5em 0 4.5em;
+}
+
+#former {
+    padding: 0 3.85em 0 4em;
+}
+
+#next:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+#prev {
+    display: none;
+}
+
+#prev:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+#editors {
+    padding: 0 10em 0 10em;
+}
+
+#editors-name {
+    padding: 0 14em 0 14em;
+}
+
+#editors-title {
+    padding: 0 12.25em 0 12.25em;
+}
+
+#editors-button {
+    padding: 0 15em 0 15em;
+}
+
+#writer {
+    padding: 0 10em 0 10em;
+}
+
+#designer {
+    padding: 0 10em 0 10em;
+}
+
+#contrib {
+    padding: 0 13.5em 0 13.5em;
+}
+
+#contrib-title {
+    padding: 0 14em 0 14em;
+}
+
+#contrib-button {
+    padding: 0 12.5em 0 12.5em;
+}
+
+#article {
+    text-align: justify;
+}
+
+#article-title {
+    text-align: center;
+}
+
+div h3 {
+    font-size: 22pt;
+    color: aqua;
+}
+
+div.body img {
+    background-color: white;
+    padding: 4em 0.5em 4em 0.5em;
+}
+
+div.section-high {
+    text-align: center;
+}
+
+.section-high h3 {
+    color: blue;
+}
+
+.section-high div {
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 0 0 1em 0;
+}
+
+a.button {
+    background-color: blue;
+    padding: 0.5em;
+    color: white;
+}
+
+a.button:hover {
+    background-color: aqua;
+    color: white;
+}
